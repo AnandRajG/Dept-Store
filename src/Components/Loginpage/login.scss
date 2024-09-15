@@ -1,0 +1,49 @@
+@import '../../Constants/Colors/colors.scss';
+
+.log-container {
+    background-color: $light-gray-color;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../Assets/Images/Background.jpg');
+
+    .log-card {
+        width: 40dvw;
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+        padding: 0.5dvw;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        height: 80dvh;
+        overflow: auto;
+        background-color: lightgrey;
+
+        .log-signin-card {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .log-input-card {
+                margin-bottom: 1dvw;
+            }
+        }
+    }
+}
+
+.log-top-label {
+    font-size: 1.3dvw;
+    font-weight: 600;
+}
+
+.log-right-card {
+    border-right: 2px solid $gray-color;
+}
+
+.log-span-text {
+    font-size: 1dvw;
+    text-decoration: underline;
+    cursor: pointer;
+}

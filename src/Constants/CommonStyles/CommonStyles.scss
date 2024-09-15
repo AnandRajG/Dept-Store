@@ -1,0 +1,39 @@
+@import '../Colors/colors.scss';
+
+.input-text-box-md {
+    width: 25dvw;
+    height: 7.5dvh;
+    box-shadow: none;
+    border: none;
+    color: $black-color;
+    padding: 0dvw 1dvw;
+    outline: none;
+    font-size: 1dvw;
+}
+
+.input-text-box-md:focus {
+    border-bottom: 3px solid $gray-color;
+}
+
+.btn-style-xl {
+    background-color: $black-color;
+    border: none;
+    color: white;
+    padding: 0.8dvw 3dvw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1dvw;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    width: 18dvw;
+    height: 7dvh;
+}
+
+.btn-style-xl:active {
+    background-color: $smoke-white;
+    color: $black-color;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
