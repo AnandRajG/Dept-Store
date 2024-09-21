@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './login.scss';
 import { common_Text, loginText } from '../../Constants/StaticText/text';
-import { Imagepaths } from '../../Constants/Imagepaths/Images';
 
 interface loginState {
     register: boolean;
